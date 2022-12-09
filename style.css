@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+  scrollbar-color:#926769 #400;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background-color: #600;
+  padding: 1rem;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+main {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(85, 0, 0, 1) 10%, rgba(85, 0, 0, 1) 90%, rgba(0, 0, 0, 1) 100%);
+  padding-top: 100px;
+}
+
+#navbar {
+  display: flex;
+  padding: .3rem 0;
+}
+
+#navbar a {
+  color: whitesmoke;
+  padding: 0 .3rem;
+}
+
+h1,
+h2 {
+  color: whitesmoke;
+}
+
+
+pre {
+  padding-top: 100px;
+}
